@@ -1,0 +1,61 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="ConsultaCEP.View.Pages.ResultPage">
+    <ContentPage.Content>
+        <ScrollView>
+            <StackLayout>
+                <Label Text=" CEP:" FontAttributes="Bold" />
+                <Entry x:Name="txtPCEP" 
+               BackgroundColor="WhiteSmoke" 
+               TextColor="Black"
+               IsReadOnly="True"/>
+                <Label Text=" Logradouro:" FontAttributes="Bold" />
+                <Entry x:Name="txtPLogradouro" 
+               BackgroundColor="WhiteSmoke" 
+               TextColor="Black"
+               IsReadOnly="True"/>
+                <Label Text=" Complemento:" FontAttributes="Bold" />
+                <Entry x:Name="txtPComplemento" 
+               BackgroundColor="WhiteSmoke" 
+               TextColor="Black"
+               IsReadOnly="True"/>
+                <Label Text=" Bairro:" FontAttributes="Bold" />
+                <Entry x:Name="txtPBairro" 
+               BackgroundColor="WhiteSmoke" 
+               TextColor="Black"
+               IsReadOnly="True"/>
+                <Label Text=" Cidade:" FontAttributes="Bold" />
+                <Entry x:Name="txtPCidade" 
+               BackgroundColor="WhiteSmoke" 
+               TextColor=" Black"
+               IsReadOnly="True"/>
+                <Label Text=" UF:"  FontAttributes="Bold"/>
+                <Entry x:Name="txtPUF" 
+               BackgroundColor="WhiteSmoke" 
+               TextColor="Black"
+               IsReadOnly="True"/>
+                <Label Text=" IBGE:" FontAttributes="Bold"/>
+                <Entry x:Name="txtPLIBGE" 
+               BackgroundColor="WhiteSmoke" 
+               TextColor="Black"
+               IsReadOnly="True"/>
+                <Label Text=" GIA:" FontAttributes="Bold"/>
+                <Entry x:Name="txtPGIA" 
+               BackgroundColor="WhiteSmoke" 
+               TextColor="Black"
+               IsReadOnly="True"/>
+                <Label Text=" DDD:" FontAttributes="Bold" />
+                <Entry x:Name="txtPDDD" 
+               BackgroundColor="WhiteSmoke" 
+               TextColor="Black"
+               IsReadOnly="True"/>
+                <Label Text=" SIAFI:" FontAttributes="Bold"/>
+                <Entry x:Name="txtPSiafi" 
+               BackgroundColor="WhiteSmoke" 
+               TextColor="Black"
+               IsReadOnly="True"/>
+            </StackLayout>
+        </ScrollView>
+    </ContentPage.Content>
+</ContentPage>

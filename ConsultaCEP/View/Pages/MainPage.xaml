@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="ConsultaCEP.MainPage">
+
+    <StackLayout BackgroundColor="#ffc943">
+        <Image Source="https://i.postimg.cc/3xzsxKjn/Logo-Consulta-CEP.png"/>
+        <Label />
+        <Entry BackgroundColor="White" Margin="20, 1, 20, 1" Placeholder="Digite o CEP" Keyboard="Numeric" MaxLength="8" x:Name="txtCEP"/>
+        <Button BackgroundColor="#359ddc" Text="Pesquisar" Margin="20, 1, 20, 1" TextColor="White" x:Name="btnPesquisar" Clicked="btnPesquisar_Clicked"/>
+        <Label />
+        <Label Text="Copyright © 2021 - Todos direitos reservados a Murilo Garcia" FontSize="12" FontAttributes="Bold" TextColor="White" HorizontalOptions="Center"/>
+    </StackLayout>
+</ContentPage>
